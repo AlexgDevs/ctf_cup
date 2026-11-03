@@ -218,3 +218,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- CTF working artifacts (not committed) ---
+# huge dumps, challenge archives and binary blobs
+*.vmem
+*.zip
+*.tar.gz
+*.iq
+*.img
+*.raw
+*.ppm
+*.bin
+*.csv.gz
+# generated carving / extraction output
+tasks/**/carved/
+tasks/**/pes/
+tasks/**/extracted/
+tasks/**/scripts/*.txt
+tasks/**/hits*.txt
+tasks/**/partial*
+# compiled challenge binaries
+tasks/pwn/filter/filter/filter
+tasks/reverse/mmm/mmm
+tasks/reverse/noise_in_space/dsp_vm
+tasks/reverse/21_century_man/21/problem
+# scratch experiments (pokebox task unsolved)
+tasks/web/pokebox/
+# IDE config
+.idea/
